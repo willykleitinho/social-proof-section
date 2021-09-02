@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [on Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [on Frontend Mentor](https://www.frontendmentor.io/solutions/simple-grid-layout-css-and-html-LN3EN_Xyu)
 - Live Site URL: [on Github Pages](https://willykleitinho.github.io/social-proof-section/)
 
 ## My process
