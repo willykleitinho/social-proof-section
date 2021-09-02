@@ -184,7 +184,7 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: 0;
+  top: 0;
   width: 100%;
   font-size: 11px;
   text-align: center;
