@@ -28,9 +28,9 @@ body {
 }
 
 .container {
-  margin: auto;
   max-width: 600px;
   padding: 5rem 1.5rem;
+  margin: auto;
 }
 
 .header {
@@ -38,15 +38,15 @@ body {
 }
 
 .header__title {
+  margin-bottom: 1rem;
+  color: var(--clr-review-bg);
   font-size: 30px;
   line-height: 35px;
-  color: var(--clr-review-bg);
-  margin-bottom: 1rem;
 }
 .header__text {
+  color: var(--clr-text-medium);
   font-size: 15px;
   font-weight: var(--font-weight-2);
-  color: var(--clr-text-medium);
   line-height: 25px;
 }
 
@@ -54,13 +54,13 @@ body {
   margin: 2.5rem auto;
 }
 .ratings__cell {
-  color: var(--clr-review-bg);
-  padding: 1rem;
   background: var(--clr-rating-bg);
   border-radius: 7px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: var(--clr-review-bg);
   font-weight: var(--font-weight-3);
   font-size: 14px;
-  margin: 1rem 0;
   text-align: center;
 }
 .ratings__stars {
@@ -70,25 +70,25 @@ body {
 
 .reviews__cell {
   padding: 40px 35px;
-  background: var(--clr-review-bg);
   margin: 1rem 0;
+  background: var(--clr-review-bg);
   border-radius: 7px;
 }
 .reviews__info {
   margin-bottom: 1.5rem;
 }
 .reviews__image {
-  border-radius: 100%;
-  width: 40px;
-  aspect-ratio: 1 / 1;
   display: inline-block;
+  width: 40px;
   margin-right: 20px;
+  border-radius: 100%;
+  aspect-ratio: 1 / 1;
 }
 .reviews__author {
-  font-size: 13px;
   display: inline-block;
   position: relative;
   bottom: 5px;
+  font-size: 13px;
   line-height: 20px;
 }
 .reviews__author-name {
@@ -114,13 +114,14 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
+    max-width: none;
     margin: 0;
     padding: 8rem 10rem;
-    max-width: none;
   }
 
 
   .header {
+    padding-right: 3rem;
     text-align: left;
   }
   .header__title {
@@ -142,20 +143,21 @@ body {
 
 
   .ratings {
-    grid-column: 2;
     margin: 0;
+    grid-column: 2;
   }
   .ratings__cell {
     width: 75%;
     padding: 18px;
   }
+
   .ratings__cell + .ratings__cell {
     margin-left: 12.5%;
   }
-
   .ratings__cell + .ratings__cell + .ratings__cell {
     margin-left: 25%;
   }
+
   .ratings__stars {
     display: inline-block;
     margin: 0;
@@ -183,12 +185,12 @@ body {
 }
 
 .attribution {
-  position: absolute;
-  top: 0;
   width: 100%;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
-  padding: 1rem;
   font-family: var(--font-family);
 }
 .attribution a {
